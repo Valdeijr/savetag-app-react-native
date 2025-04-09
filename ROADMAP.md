@@ -12,10 +12,10 @@ SaveTag é um aplicativo de portfólio que demonstra a capacidade de simular tag
 **Objetivo**: Criar a base arquitetural do aplicativo e implementar a funcionalidade principal de NFC.
 
 - [x] Definição da arquitetura do projeto
-- [ ] Configuração do ambiente de desenvolvimento com Expo
-- [ ] Implementação da estrutura de pastas conforme arquitetura definida
-- [ ] Configuração do TypeScript e ESLint
-- [ ] Implementação básica de navegação
+- [x] Configuração do ambiente de desenvolvimento com Expo
+- [x] Implementação da estrutura de pastas conforme arquitetura definida
+- [x] Configuração do TypeScript e ESLint
+- [x] Implementação básica de navegação
 - [ ] Integração inicial com NFC (expo-nfc)
 - [ ] Prova de conceito: leitura de tags NFC
 - [ ] Prova de conceito: emulação básica de cartão (Android)

@@ -67,7 +67,7 @@ npx expo start
 
 ## 📊 Status do Projeto
 
-Este projeto está atualmente em desenvolvimento ativo. Veja o [ROADMAP.md](./ROADMAP.md) para acompanhar o progresso e os próximos passos.
+Este projeto está atualmente em desenvolvimento ativo. Veja o [ROADMAP.md](./ROADMAP.md) para acompanhar o progresso e os próximos passos, sua arquitetura segue as regras contidas em [ARCHITECTURE.md](./ARCHITECTURE.md).
 
 ## 🤝 Contribuições
 
