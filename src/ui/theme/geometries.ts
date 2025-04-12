@@ -1,0 +1,51 @@
+import { Dimensions } from "react-native";
+const { width, height } = Dimensions.get("window");
+
+export const geometries = {
+	spacing: {
+		tiny: 4,
+		small: 8,
+		compact: 12,
+		regular: 16,
+		medium: 20,
+		large: 24,
+		immense: 32,
+	},
+	rounded: {
+		tiny: 4,
+		small: 8,
+		compact: 12,
+		regular: 16,
+		medium: 24,
+		large: 48,
+		immense: 56,
+	},
+	widths: {
+		[100]: width * 1,
+		[90]: width * 0.9,
+		[80]: width * 0.8,
+		[70]: width * 0.7,
+		[60]: width * 0.6,
+		[50]: width * 0.5,
+		[40]: width * 0.4,
+		[35]: width * 0.35,
+		[30]: width * 0.3,
+		[20]: width * 0.2,
+		[10]: width * 0.1,
+	},
+	heights: {
+		[100]: height * 1,
+		[90]: height * 0.9,
+		[80]: height * 0.8,
+		[70]: height * 0.7,
+		[60]: height * 0.6,
+		[50]: height * 0.5,
+		[40]: height * 0.4,
+		[30]: height * 0.3,
+		[25]: height * 0.25,
+		[20]: height * 0.2,
+		[15]: height * 0.15,
+		[10]: height * 0.1,
+		[5]: height * 0.05,
+	},
+};

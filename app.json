@@ -20,7 +20,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./public/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.NFC",
+        "android.permission.NFC"
+      ],
+      "package": "com.kgbrusso.savetag"
     },
     "web": {
       "bundler": "metro",
@@ -28,7 +33,8 @@
       "favicon": "./public/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "react-native-nfc-manager"
     ],
     "experiments": {
       "typedRoutes": true
