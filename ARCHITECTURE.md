@@ -4,6 +4,9 @@
 Estrutura **offline-first**, com sincronização **bidirecional e incremental** entre o app e a API Fastify, organizada por domínios funcionais e princípios inspirados em **SOLID**, visando manutenção e escalabilidade.
 
 ---
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.NFC" />
+---
 
 ## **📁 Estrutura de Pastas**
 
